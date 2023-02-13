@@ -1,7 +1,5 @@
 <h1> <img src="https://github.com/MickTK/DownGit/raw/master/res/images/downgit.png" width="20" height=auto /> DownGit </h1>
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=5KR6BA9MYTM62&no_recurring=0&currency_code=USD)
-
 #### Create GitHub Resource Download Link
 
 With this tool you can directly download or create download link to any GitHub **public directory or file**.
@@ -30,7 +28,3 @@ In default, value of `fileName` and `rootDirectory` is set to the name of the do
 If you want to download file- **`https://github.com/MickTK/DownGit/blob/master/res/images/downgit.png`** with name- **`DownGitIcon.zip`**, then the link will be- https://micktk.github.io/DownGit/#/home?url=https://github.com/MickTK/DownGit/blob/master/res/images/downgit.png&fileName=DownGitIcon
 
 </details>
-<br>
-
-### License
-<a rel="license" href="https://opensource.org/licenses/MIT"><img alt="MIT License" src="https://cloud.githubusercontent.com/assets/5456665/18950087/fbe0681a-865f-11e6-9552-e59d038d5913.png" width="60em" height=auto/></a><br/><a href="https://github.com/MickTK/DownGit">DownGit</a> is licensed under <a rel="license" href="https://opensource.org/licenses/MIT">MIT License</a>.
