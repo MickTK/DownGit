@@ -48,6 +48,8 @@ downGitModule.factory('downGitService', [
             }
 
             info.rootDirectoryName = decodeURIComponent(info.rootDirectoryName); // utf-8 to characters
+
+            return info;
         }
 
         var downloadDir = function (progress) {
