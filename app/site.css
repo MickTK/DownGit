@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif, arial;
-    color: #B1ACA7;
-    background-color: #141515;
+    color: #4A4F64;
 }
 
 h1,
@@ -36,7 +35,7 @@ a:hover {
 }
 
 .home h1 a {
-    color: #B1ACA7;
+    color: #4A4F64;
 }
 
 .home h1 a:hover {
