@@ -18,8 +18,6 @@ downGitModule.factory('downGitService', [
             info.repository = splitPath[2];
             info.branch = splitPath[4];
 
-            // dirUrl = parameters.url; for redirect
-
             info.rootName = splitPath[splitPath.length - 1];
             if (!!splitPath[4]) {
                 info.resPath = repoPath.substring(
@@ -31,7 +29,7 @@ downGitModule.factory('downGitService', [
             info.urlPostfix = "?ref=" + info.branch;
 
             if (!parameters.fileName || parameters.fileName == "") {
-                info.downloadFileName = info.rootName;
+                info.downloadFileName = decodeURIComponent(info.rootName);
             } else {
                 info.downloadFileName = parameters.fileName;
             }
@@ -47,7 +45,7 @@ downGitModule.factory('downGitService', [
                 info.rootDirectoryName = parameters.rootDirectory + "/";
             }
 
-            info.rootDirectoryName = decodeURIComponent(info.rootDirectoryName); // utf-8 to characters
+            info.rootDirectoryName = decodeURIComponent(info.rootDirectoryName);
 
             return info;
         }
