@@ -19,7 +19,7 @@ downGitModule.factory('downGitService', [
             info.branch = splitPath[4];
 
             info.rootName = splitPath[splitPath.length - 1];
-            if (!!splitPath[4]) {
+            if (splitPath[4]) {
                 info.resPath = repoPath.substring(
                     repoPath.indexOf(splitPath[4]) + splitPath[4].length + 1
                 );
